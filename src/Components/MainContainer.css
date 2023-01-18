@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.MainContainer
+{
+    border: 2px solid red;
+}
+.MainContainer h3
+{
+    text-align: center;
+    color: aquamarine;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.4rem;
+    caret-color: transparent;
+}
+.MainContainer input
+{
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top:2vh;
+    height: 3vh;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button
+{
+    border:2px solid grey;
+    width: max-content;
+    margin: auto;
+    margin-top: 2vh;
+}
+.displaymessage
+{
+    width: max-content;
+    margin: auto;
+    /* border: 2px solid white; */
+    margin-top:2vh ;
+    font-size: 1.2rem;
+}
+.warn{
+    color: red;
+}
+.shortedLink a
+{
+    text-decoration: none;
+    color: palegreen;
+    font-size: 1.3rem;
+}
+.shortedLink a:hover
+{
+    cursor: pointer;
+    color: white;
+}
+.MainContainer p
+{
+    color: aquamarine;
+    width: 50%;
+    margin: auto;
+    margin-top: 2vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    caret-color: transparent;
+}
+@media only screen and (max-width:480px) {
+    .MainContainer h3
+    {
+        font-size: 2.3rem;
+    }
+    .MainContainer input
+    {
+        width: 70%;
+        margin-top: 3vh;
+    }
+    .MainContainer p
+    {
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width:767px) {
+    .MainContainer h3
+    {
+        font-size: 2.6rem;
+    }
+    .MainContainer input
+    {
+        width: 60%;
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    .MainContainer p
+    {
+        width: 70%;
+    }
+  }
+  @media only screen and ( max-width:1024px) {
+    
+    .MainContainer input
+    {
+        width: 50%;
+        margin-top: 4vh;
+        margin-bottom: 3vh;
+    }
+    .MainContainer p
+    {
+        width: 60%;
+    }
+  }

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Poiret+One&display=swap');
+
+.Header
+{
+    width: 100vw;
+    margin: auto;
+    border-bottom: 1px solid grey;
+    margin-top: 1vh;
+}
+.Header h1
+{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 1px;
+    font-size: 45px;
+    padding: 5px;
+    font-weight: bolder;
+    caret-color: transparent;
+    text-align: center;
+}
