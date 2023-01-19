@@ -37,16 +37,15 @@ export default function MainContainer() {
       }  
     else{
        getURL();
-        }
+       };
+        
     }
     // API Call Function
-  const getURL=async()=>{
-    const res=await axios.get(`https://api.shrtco.de/v2/shorten?url=${inputData}`);
-      if(res.status===201)
-      {
-        setShortLink(res.data.result.short_link);
-        setWarn("");
-      }
+  const getURL=()=>{
+    fetch('https://api.shrtco.de/v2/shorten?url=${inputData}')
+    .then((response) => response.json())
+    .then((data) => setShortLink(data.results.short_link));
+
   }
     return (
     <div className='MainContainer'>
